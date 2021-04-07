@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/yirui-s-palace/static/css/main.643b110a.chunk.css",
-    "main.js": "/yirui-s-palace/static/js/main.04ad5757.chunk.js",
-    "main.js.map": "/yirui-s-palace/static/js/main.04ad5757.chunk.js.map",
-    "runtime-main.js": "/yirui-s-palace/static/js/runtime-main.49382574.js",
-    "runtime-main.js.map": "/yirui-s-palace/static/js/runtime-main.49382574.js.map",
-    "static/js/2.9f774fc5.chunk.js": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js",
-    "static/js/2.9f774fc5.chunk.js.map": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js.map",
-    "index.html": "/yirui-s-palace/index.html",
-    "precache-manifest.8fc415a5cc7ac5af8188e95d7c4ce01d.js": "/yirui-s-palace/precache-manifest.8fc415a5cc7ac5af8188e95d7c4ce01d.js",
-    "service-worker.js": "/yirui-s-palace/service-worker.js",
-    "static/css/main.643b110a.chunk.css.map": "/yirui-s-palace/static/css/main.643b110a.chunk.css.map",
-    "static/js/2.9f774fc5.chunk.js.LICENSE.txt": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js.LICENSE.txt",
-    "static/media/bg.jpg": "/yirui-s-palace/static/media/bg.2a781977.jpg",
-    "static/media/coming_soon.svg": "/yirui-s-palace/static/media/coming_soon.f5d22570.svg",
-    "static/media/logo.svg": "/yirui-s-palace/static/media/logo.92922083.svg"
+    "main.css": "/static/css/main.643b110a.chunk.css",
+    "main.js": "/static/js/main.bc591945.chunk.js",
+    "main.js.map": "/static/js/main.bc591945.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a4527b3e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a4527b3e.js.map",
+    "static/js/2.9f774fc5.chunk.js": "/static/js/2.9f774fc5.chunk.js",
+    "static/js/2.9f774fc5.chunk.js.map": "/static/js/2.9f774fc5.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cf351c4bdb4c0275d4aa4a9d84e01065.js": "/precache-manifest.cf351c4bdb4c0275d4aa4a9d84e01065.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.643b110a.chunk.css.map": "/static/css/main.643b110a.chunk.css.map",
+    "static/js/2.9f774fc5.chunk.js.LICENSE.txt": "/static/js/2.9f774fc5.chunk.js.LICENSE.txt",
+    "static/media/bg.jpg": "/static/media/bg.2a781977.jpg",
+    "static/media/coming_soon.svg": "/static/media/coming_soon.f5d22570.svg",
+    "static/media/logo.svg": "/static/media/logo.92922083.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.49382574.js",
+    "static/js/runtime-main.a4527b3e.js",
     "static/js/2.9f774fc5.chunk.js",
     "static/css/main.643b110a.chunk.css",
-    "static/js/main.04ad5757.chunk.js"
+    "static/js/main.bc591945.chunk.js"
   ]
 }
