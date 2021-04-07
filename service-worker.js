@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yirui-s-palace/precache-manifest.a90d6741cf0992006c7ec0265a24fc41.js"
+  "/yirui-s-palace/precache-manifest.8fc415a5cc7ac5af8188e95d7c4ce01d.js"
 );
 
 self.addEventListener('message', (event) => {

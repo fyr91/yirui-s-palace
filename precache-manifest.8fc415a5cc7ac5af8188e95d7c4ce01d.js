@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3976da0bae31bcec64b725e95a4745a",
+    "revision": "a638841b553aabcf64e353a71e4261e1",
     "url": "/yirui-s-palace/index.html"
   },
   {
-    "revision": "6471b5f42269bf673e9f",
+    "revision": "e0d0c7a70714b4c9cc42",
     "url": "/yirui-s-palace/static/css/main.643b110a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6471b5f42269bf673e9f",
-    "url": "/yirui-s-palace/static/js/main.211bc019.chunk.js"
+    "revision": "e0d0c7a70714b4c9cc42",
+    "url": "/yirui-s-palace/static/js/main.04ad5757.chunk.js"
   },
   {
     "revision": "fd9d78f07952159579d6",
