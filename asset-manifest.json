@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/yirui-s-palace/static/css/main.643b110a.chunk.css",
+    "main.js": "/yirui-s-palace/static/js/main.211bc019.chunk.js",
+    "main.js.map": "/yirui-s-palace/static/js/main.211bc019.chunk.js.map",
+    "runtime-main.js": "/yirui-s-palace/static/js/runtime-main.49382574.js",
+    "runtime-main.js.map": "/yirui-s-palace/static/js/runtime-main.49382574.js.map",
+    "static/js/2.9f774fc5.chunk.js": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js",
+    "static/js/2.9f774fc5.chunk.js.map": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js.map",
+    "index.html": "/yirui-s-palace/index.html",
+    "precache-manifest.a90d6741cf0992006c7ec0265a24fc41.js": "/yirui-s-palace/precache-manifest.a90d6741cf0992006c7ec0265a24fc41.js",
+    "service-worker.js": "/yirui-s-palace/service-worker.js",
+    "static/css/main.643b110a.chunk.css.map": "/yirui-s-palace/static/css/main.643b110a.chunk.css.map",
+    "static/js/2.9f774fc5.chunk.js.LICENSE.txt": "/yirui-s-palace/static/js/2.9f774fc5.chunk.js.LICENSE.txt",
+    "static/media/bg.jpg": "/yirui-s-palace/static/media/bg.2a781977.jpg",
+    "static/media/coming_soon.svg": "/yirui-s-palace/static/media/coming_soon.f5d22570.svg",
+    "static/media/logo.svg": "/yirui-s-palace/static/media/logo.92922083.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49382574.js",
+    "static/js/2.9f774fc5.chunk.js",
+    "static/css/main.643b110a.chunk.css",
+    "static/js/main.211bc019.chunk.js"
+  ]
+}
