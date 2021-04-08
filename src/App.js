@@ -10,6 +10,8 @@ function App() {
 
   const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
   const [logoSize, setLogoSize] = React.useState(80);
+  const [logoPos, setLogoPos] = React.useState('flex-start');
+
 
   React.useEffect(() => {
     /* Inside of a "useEffect" hook add an event listener that updates
@@ -18,10 +20,13 @@ function App() {
       setWindowWidth(window.innerWidth)
       if( windowWidth > lg_screen_size){
         setLogoSize(60)
+        setLogoPos('flex-start')
       }else if (windowWidth > md_screen_size){
         setLogoSize(50)
+        setLogoPos('flex-start')
       }else{
         setLogoSize(40)
+        setLogoPos('center')
       }
 
     });
@@ -54,12 +59,13 @@ function App() {
       backgroundColor: 'transparent',
       display: 'flex',
       flexDirection: 'row',
-      alignItems: 'left',
+      alignItems: logoPos,
+      justifyContent: 'center',
       // paddingLeft: 20,
     },
     logo: {
       paddingLeft: 20,
-      paddingTop: 10,
+      paddingRight: 20,
       height: logoSize,
       width: logoSize,
     },
