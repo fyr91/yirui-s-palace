@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import logo from './assets/logo.svg';
 import bg from './assets/bg.jpg';
 import soon from './assets/coming_soon.svg';
@@ -9,39 +9,14 @@ import './App.css';
 function App() {
 
   const [windowWidth, setWindowWidth] = React.useState(window.innerWidth);
-  const [logoSize, setLogoSize] = React.useState(80);
+  const [logoSize, setLogoSize] = React.useState(50);
   const [logoPos, setLogoPos] = React.useState('flex-start');
-
-
-  React.useEffect(() => {
-    /* Inside of a "useEffect" hook add an event listener that updates
-       the "width" state variable when the window size changes */
-    window.addEventListener("resize", () => {
-      setWindowWidth(window.innerWidth)
-      if( windowWidth > lg_screen_size){
-        console.log('large')
-        setLogoSize(60)
-        setLogoPos('flex-start')
-      }else if (windowWidth > md_screen_size){
-        console.log('medium')
-        setLogoSize(50)
-        setLogoPos('flex-start')
-      }else{
-        setLogoSize(40)
-        setLogoPos('center')
-        console.log('small')
-      }
-
-    });
-
-    /* passing an empty array as the dependencies of the effect will cause this
-       effect to only run when the component mounts, and not each time it updates.
-       We only want the listener to be added once */
-  }, []);
 
 
   const styles = {
     bg: {
+      minWidth: 300,
+      minHeight: 480,
       position: 'absolute',
       top: 0,
       bottom: 0,
@@ -67,8 +42,8 @@ function App() {
       // paddingLeft: 20,
     },
     logo: {
-      paddingLeft: 20,
-      paddingRight: 20,
+      paddingLeft: 40,
+      paddingRight: 40,
       height: logoSize,
       width: logoSize,
     },
