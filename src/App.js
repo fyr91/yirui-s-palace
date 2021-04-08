@@ -59,8 +59,8 @@ function App() {
       backgroundColor: 'transparent',
       display: 'flex',
       flexDirection: 'row',
-      alignItems: logoPos,
-      justifyContent: 'center',
+      alignItems: 'center',
+      justifyContent: logoPos,
       // paddingLeft: 20,
     },
     logo: {
