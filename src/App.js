@@ -19,14 +19,17 @@ function App() {
     window.addEventListener("resize", () => {
       setWindowWidth(window.innerWidth)
       if( windowWidth > lg_screen_size){
+        console.log('large')
         setLogoSize(60)
         setLogoPos('flex-start')
       }else if (windowWidth > md_screen_size){
+        console.log('medium')
         setLogoSize(50)
         setLogoPos('flex-start')
       }else{
         setLogoSize(40)
         setLogoPos('center')
+        console.log('small')
       }
 
     });
