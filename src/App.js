@@ -17,11 +17,11 @@ function App() {
     window.addEventListener("resize", () => {
       setWindowWidth(window.innerWidth)
       if( windowWidth > lg_screen_size){
-        setLogoSize(80)
-      }else if (windowWidth > md_screen_size){
-        setLogoSize(70)
-      }else{
         setLogoSize(60)
+      }else if (windowWidth > md_screen_size){
+        setLogoSize(50)
+      }else{
+        setLogoSize(40)
       }
 
     });
@@ -70,7 +70,7 @@ function App() {
     },
     coming: {
       width: "50vw",
-      minWidth: 300,
+      minWidth: 250,
     },
     footer: {
       height: '80px',
